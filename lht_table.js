@@ -26,7 +26,7 @@ for(var i=0; i<eventDates.length; i++){
    var eventTime = eventDate.toLocaleTimeString();
 
    if(thisDay <= eventDate && eventDate <= endDate){
-      tableHTML += "<tr>" + "<td>" + eventDay + " " + eventTime + "</td>" + "<td>" + eventDescriptions[i] + "</td>" + "<td>" + eventPrices[i] + "</td>" + "</tr>"
+      tableHTML += "<tr>" + "<td>" + eventDay + " @ " + eventTime + "</td>" + "<td>" + eventDescriptions[i] + "</td>" + "<td>" + eventPrices[i] + "</td>" + "</tr>"
    }
 }
 
